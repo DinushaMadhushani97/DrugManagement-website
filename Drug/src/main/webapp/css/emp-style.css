@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+ 
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+body{
+              
+              
+          background-image:url("images/pool-area.jpg");
+          background-repeat:no-repeat;
+          background-size:cover;
+          background-attachment:fixed;
+            
+            }
+
+table.center{
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.theme{
+   background-color: #B6D0E2;
+   height:80px;
+   
+}
+
+.form_payment{
+  background:#15172b;
+  width:500px;
+  height:650px;
+  border: 2px solid white;
+  padding: 4px 48px 32px 55px;
+  margin: 24px 0px 0px 482px;
+  border-radius: 15px;
+}
+.payment{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 29px;
+margin: 15px 40px 9px 126px;
+padding: 10px;
+}
+
+.button {
+  background-color: aqua;
+  border: none;
+  color: black;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left:5%;
+  font-size: 16px;
+  width: 90%;
+   border-radius: 25px;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
+/*footer*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#000000;
+   color:black;
+   text-align: center;
+}
